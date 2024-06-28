@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TO DO LIST</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="todo-app card mx-auto mt-5">
+        <h2 class="card-header">To Do List</h2>
+        <div class="card-body">
+            <div class="row mb-3">
+                <div class="col-8">
+                    <input type="text" id="input-box" class="form-control" placeholder="Agrega una tarea">
+                </div>
+                <div class="col-4">
+                    <button class="btn btn-primary w-100" onclick="addTask()">Agregar</button>
+                </div>
+            </div>
+            <ul id="list-container" class="list-group">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li>
+                <li>Task 4</li> -->
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
